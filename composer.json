@@ -1,0 +1,33 @@
+{
+  "name": "elji/embed",
+  "description": "Embed utility class to extract ID from embed",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Loïc Jazon",
+      "email": "loic.jazon@gmail.com"
+    }
+  ],
+  "config": {
+    "platform": {
+      "php": "5.3.3"
+    },
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "Elji\\Library\\Embed\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\Elji\\Library\\Embed\\": "tests"
+    }
+  },
+  "require": {
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.8"
+  }
+}
